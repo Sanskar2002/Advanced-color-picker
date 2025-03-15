@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1{
+    color: lawngreen;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+button{
+    background-color: black;
+    color: lawngreen;
+    height: 40px;
+    width: 100px;
+    font-style: bold;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: lawngreen;
+    color: black;
+    font-style: bold;
+    cursor: pointer;
+}
+
+#color-picker{
+    height: 120px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.complementary-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.complementary-color-box{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid white;
+}
